@@ -1,0 +1,32 @@
+name: auth_01
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.6.1
+  google_maps_flutter: ^2.3.0
+  location: ^4.4.0
+  cloud_firestore: ^4.8.1
+  firebase_core: ^2.13.0
+  permission_handler: ^10.3.0
+  firebase_database: ^10.3.8
+  http: 1.1.0
+  flutter_secure_storage: ^9.0.0
+  json_serializable: ^6.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/
