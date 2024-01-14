@@ -8,6 +8,7 @@ const cors = require('cors');
 const driverRoutes = require('./src/routes/driverRoutes');
 const busRoutes = require('./src/routes/busRoutes');
 const routeRoutes = require('./src/routes/routeRoutes');
+const authRoutes = require('./src/routes/authRoutes');
 
 // Initialize express app
 const app = express();
@@ -27,6 +28,7 @@ mongoose.connect(process.env.DB_URI, { useNewUrlParser: true, useUnifiedTopology
 app.use('/api/drivers', driverRoutes);
 app.use('/api/buses', busRoutes);
 app.use('/api/routes', routeRoutes);
+app.use('/api/auth', authRoutes);
 
 // Home route
 app.get('/', (req, res) => {

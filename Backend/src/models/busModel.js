@@ -13,7 +13,6 @@ const busSchema = new mongoose.Schema({
         coordinates: [Number]
     },
     current_students_ct: Number,
-    current_driver_id: Number,
     pin_color: String
 });
 
