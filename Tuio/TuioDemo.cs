@@ -96,7 +96,7 @@ public class TuioDemo : Form , TuioListener
 
 
 			// MongoDB connection initialization
-			var mongoClient = new MongoClient("mongodb+srv://ahmeddiaaeldin82:50Cmdlvag9XUkYul@cluster0.seivwpm.mongodb.net/?retryWrites=true&w=majority"); // Replace with your MongoDB connection string
+			var mongoClient = new MongoClient("no_key"); // Replace with your MongoDB connection string
 			var database = mongoClient.GetDatabase("Fleet_Management_System"); // Replace with your database name
 			markersCollection = database.GetCollection<BsonDocument>("markers");
 			busMarkersCollection = database.GetCollection<BsonDocument>("busmarkers");

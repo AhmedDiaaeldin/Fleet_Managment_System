@@ -44,39 +44,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDb-Up5Ysy1J6wdKkJWwQ0jMAQhKynYfnI',
-    appId: '1:713918076266:web:c306dec03fef92a0738113',
-    messagingSenderId: '713918076266',
-    projectId: 'auth-39925',
-    authDomain: 'auth-39925.firebaseapp.com',
-    storageBucket: 'auth-39925.appspot.com',
+    apiKey: 'no_key',
+    appId: 'no_key',
+    messagingSenderId: 'no_key',
+    projectId: 'no_key',
+    authDomain: 'no_key',
+    storageBucket: 'no_key',
   );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyArXS4-272E1GUSvcujlsVE-OEI1OtgBHw',
-    appId: '1:713918076266:android:adb41e371679b96a738113',
-    messagingSenderId: '713918076266',
-    projectId: 'auth-39925',
-    storageBucket: 'auth-39925.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD1eIvoSV9WNcLDKt-lGRfrZZ0QXQQWyFk',
-    appId: '1:713918076266:ios:7e68a0f3e6993cb8738113',
-    messagingSenderId: '713918076266',
-    projectId: 'auth-39925',
-    storageBucket: 'auth-39925.appspot.com',
-    iosClientId: '713918076266-6u2crcnt1hvg9io8cv86ummp90jh73ib.apps.googleusercontent.com',
-    iosBundleId: 'com.example.auth01',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD1eIvoSV9WNcLDKt-lGRfrZZ0QXQQWyFk',
-    appId: '1:713918076266:ios:7e68a0f3e6993cb8738113',
-    messagingSenderId: '713918076266',
-    projectId: 'auth-39925',
-    storageBucket: 'auth-39925.appspot.com',
-    iosClientId: '713918076266-6u2crcnt1hvg9io8cv86ummp90jh73ib.apps.googleusercontent.com',
-    iosBundleId: 'com.example.auth01',
-  );
-}

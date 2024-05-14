@@ -11,7 +11,7 @@ function useCarFetch() {
     url: "https://car-data.p.rapidapi.com/cars",
     params: { limit: "30", page: "0" },
     headers: {
-      "X-RapidAPI-Key": "a09770bc04msh51d7f23138d4483p1b4f26jsn36fc5648a13f",
+      "X-RapidAPI-Key": "no_key",
       "X-RapidAPI-Host": "car-data.p.rapidapi.com",
     },
   };
