@@ -1,8 +1,8 @@
 # Project's Poster
 ![# Project's Poster](https://github.com/AhmedDiaaeldin/Fleet_Managment_System/blob/main/poster.png)
 
-# Full MERN demo:
-https://github.com/AhmedDiaaeldin/Fleet_Managment_System/assets/101406020/b35261d2-2bcd-4894-a661-9c633e8dd35f
+# MERN Web App demo:
+[Overview and Demo](https://drive.google.com/file/d/1_cp2cXHPfoBxLEKYaDh3-npFrUdW6ZlR/view?usp=sharing)
 
 
 # jwt_auth and state managment:
